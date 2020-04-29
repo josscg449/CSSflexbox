@@ -20,6 +20,8 @@ body {
 
 .row-reverse{
     animation: rowReverse 4.0s forwards;
+    -webkit-animation: rowReverse 4.0s forwards;
+    -moz-animation: rowReverse 4.0s forwards;
     animation-iteration-count: infinite;
 }
 @keyframes rowReverse{
